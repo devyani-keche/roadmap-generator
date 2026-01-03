@@ -11,7 +11,7 @@ function App() {
     setRoadmap([]); 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/generate-roadmap",
+        "https://roadmap-backend-navy.vercel.app/api/generate-roadmap",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
